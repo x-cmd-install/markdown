@@ -1,81 +1,94 @@
-- repo: deepin_23
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-10
+  status: newest
+  maintainers:
+    - kraai@debian.org
+  categories:
+    - web
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-10.1
+  status: newest
+  maintainers:
+    - kraai@debian.org
+  categories:
+    - web
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-14
+  status: newest
+  maintainers:
+    - tachi@debian.org
+  categories:
+    - web
+- repo: raspbian_oldstable
   subrepo: main
   srcname: markdown
   binnames:
     - markdown
   visiblename: markdown
   version: 1.0.1
-  origversion: 1.0.1-10.1
+  origversion: 1.0.1-12
   status: newest
   maintainers:
-    - kraai@debian.org
+    - packages@qa.debian.org
   categories:
     - web
-- repo: deepin_25
+- repo: raspbian_stable
   subrepo: main
   srcname: markdown
   binnames:
     - markdown
   visiblename: markdown
   version: 1.0.1
-  origversion: 1.0.1-10.1
+  origversion: 1.0.1-14
   status: newest
   maintainers:
-    - kraai@debian.org
+    - tachi@debian.org
   categories:
     - web
-- repo: openkylin_1_0
-  subrepo: yangtze/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: markdown
   binnames:
     - markdown
   visiblename: markdown
   version: 1.0.1
-  origversion: 1.0.1-ok1
+  origversion: 1.0.1-14
   status: newest
   maintainers:
-    - packaging@lists.openkylin.top
+    - tachi@debian.org
   categories:
     - web
-- repo: openkylin_1_0
-  subrepo: yangtze-proposed/main
+- repo: alpine_3_24
+  subrepo: community
   srcname: markdown
-  binnames:
-    - markdown
+  binname: markdown
   visiblename: markdown
   version: 1.0.1
-  origversion: 1.0.1-ok1
+  origversion: 1.0.1-r3
   status: newest
+  summary: Text-to-HTML conversion tool for web writers
   maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - web
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-ok1
-  status: newest
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - web
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-10.1
-  status: newest
-  maintainers:
-    - kraai@debian.org
-  categories:
-    - web
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
   srcname: markdown
@@ -89,147 +102,110 @@
     - packaging@lists.openkylin.top
   categories:
     - web
-- repo: openkylin_3_0
-  subrepo: huanghe/main
+- repo: alpine_3_17
+  subrepo: community
+  srcname: markdown
+  binname: markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_17
+  subrepo: community
+  srcname: markdown
+  binname: markdown-doc
+  visiblename: markdown-doc
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_18
+  subrepo: community
+  srcname: markdown
+  binname: markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_18
+  subrepo: community
+  srcname: markdown
+  binname: markdown-doc
+  visiblename: markdown-doc
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: markdown
+  binname: markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: markdown
+  binname: markdown-doc
+  visiblename: markdown-doc
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: markdown
+  binname: markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-r3
+  status: newest
+  summary: Text-to-HTML conversion tool for web writers
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
   srcname: markdown
   binnames:
     - markdown
   visiblename: markdown
   version: 1.0.1
-  origversion: 1.0.1-ok1
+  origversion: 1.0.1-7
   status: newest
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - web
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-14
-  status: newest
-  maintainers:
-    - tachi@debian.org
-  categories:
-    - web
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-12+apertis0
-  status: newest
-  maintainers:
-    - packages@qa.debian.org
-- repo: debian_experimental
-  subrepo: experimental/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.2~b8
-  origversion: 1.0.2~b8-7
-  status: untrusted
   maintainers:
     - kraai@debian.org
   categories:
-    - web
-- repo: alpine_3_17
-  subrepo: community
-  srcname: markdown
-  binname: markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_17
-  subrepo: community
-  srcname: markdown
-  binname: markdown-doc
-  visiblename: markdown-doc
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_18
-  subrepo: community
-  srcname: markdown
-  binname: markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_18
-  subrepo: community
-  srcname: markdown
-  binname: markdown-doc
-  visiblename: markdown-doc
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: markdown
-  binname: markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: markdown
-  binname: markdown-doc
-  visiblename: markdown-doc
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: markdown
-  binname: markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
+    - universe/web
 - repo: alpine_3_20
   subrepo: community
   srcname: markdown
@@ -256,15 +232,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - BSD-3-Clause
-- repo: chromebrew
-  srcname: markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: null
-  status: newest
-  summary: Markdown is a text-to-HTML conversion tool for web writers.
-  licenses:
-    - BSD
 - repo: alpine_3_21
   subrepo: community
   srcname: markdown
@@ -326,19 +293,6 @@
   origversion: 1.0.1-r3
   status: newest
   summary: Text-to-HTML conversion tool for web writers (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: markdown
-  binname: markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-r3
-  status: newest
-  summary: Text-to-HTML conversion tool for web writers
   maintainers:
     - kdaudt@alpinelinux.org
   licenses:
@@ -404,6 +358,26 @@
   status: newest
   maintainers:
     - packages@qa.debian.org
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-12+apertis0
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+- repo: chromebrew
+  srcname: markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: null
+  status: newest
+  summary: Markdown is a text-to-HTML conversion tool for web writers.
+  licenses:
+    - BSD
 - repo: debian_11
   subrepo: bullseye/main
   srcname: markdown
@@ -469,6 +443,19 @@
     - tachi@debian.org
   categories:
     - web
+- repo: debian_experimental
+  subrepo: experimental/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.2~b8
+  origversion: 1.0.2~b8-7
+  status: untrusted
+  maintainers:
+    - kraai@debian.org
+  categories:
+    - web
 - repo: deepin_unstable
   subrepo: main
   srcname: markdown
@@ -480,6 +467,58 @@
   status: newest
   maintainers:
     - kraai@debian.org
+- repo: deepin_23
+  subrepo: main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-10.1
+  status: newest
+  maintainers:
+    - kraai@debian.org
+  categories:
+    - web
+- repo: deepin_25
+  subrepo: main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-10.1
+  status: newest
+  maintainers:
+    - kraai@debian.org
+  categories:
+    - web
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-10.1
+  status: newest
+  maintainers:
+    - kraai@debian.org
+  categories:
+    - web
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-14
+  status: newest
+  maintainers:
+    - tachi@debian.org
+  categories:
+    - web
 - repo: exherbo
   subrepo: arbor
   srcname: app-text/markdown
@@ -530,6 +569,58 @@
   status: newest
   maintainers:
     - tachi@debian.org
+  categories:
+    - web
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-ok1
+  status: newest
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - web
+- repo: openkylin_1_0
+  subrepo: yangtze-proposed/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-ok1
+  status: newest
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - web
+- repo: openkylin_2_0
+  subrepo: nile/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-ok1
+  status: newest
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - web
+- repo: openkylin_3_0
+  subrepo: huanghe/main
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-ok1
+  status: newest
+  maintainers:
+    - packaging@lists.openkylin.top
   categories:
     - web
 - repo: openkylin_3_0
@@ -620,97 +711,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - textproc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-10
-  status: newest
-  maintainers:
-    - kraai@debian.org
-  categories:
-    - web
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-10.1
-  status: newest
-  maintainers:
-    - kraai@debian.org
-  categories:
-    - web
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-14
-  status: newest
-  maintainers:
-    - tachi@debian.org
-  categories:
-    - web
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-12
-  status: newest
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - web
-- repo: raspbian_stable
-  subrepo: main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-14
-  status: newest
-  maintainers:
-    - tachi@debian.org
-  categories:
-    - web
-- repo: raspbian_testing
-  subrepo: main
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-14
-  status: newest
-  maintainers:
-    - tachi@debian.org
-  categories:
-    - web
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: markdown
-  binnames:
-    - markdown
-  visiblename: markdown
-  version: 1.0.1
-  origversion: 1.0.1-7
-  status: newest
-  maintainers:
-    - kraai@debian.org
-  categories:
-    - universe/web
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: markdown
@@ -804,6 +804,19 @@
     - universe/web
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: markdown
+  binnames:
+    - markdown
+  visiblename: markdown
+  version: 1.0.1
+  origversion: 1.0.1-14
+  status: newest
+  maintainers:
+    - tachi@debian.org
+  categories:
+    - universe/web
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: markdown
   binnames:
     - markdown
